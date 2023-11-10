@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 05</title>
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+
+    <!--Sessão do header com logo e menu de navegação superior-->
+    <header>
+        <div class="container container-header">
+
+            <img src="imagens/logo.jpg" alt="">
+
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a style="color: #eb2d2d;" href="">Home</a></li>
+                    <li><a href="">Venda</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-mobile">
+                <ul>
+                    <li><a style="color: #eb2d2d;" href="">Home</a></li>
+                    <li><a href="">Venda</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div><!--conteúdo-->
+    </header><!--Cabeçalho-->
+
+
+    <!--Sessão Banner-->
+    <section class="banner">
+        <div class="container container-banner">
+            <div class="text-banner">
+                <div class="text-banner-single">Consultoria</div>
+                <div class="text-banner-single">Compra</div>
+                <div class="text-banner-single">Venda</div>
+                <div class="text-banner-single">E-mail@hotmail.com</div>
+            </div>
+        </div><!--conteúdo-->
+    </section><!--sessão do banner e mensagens-->
+
+
+    <!--divisão para veículos destaques-->
+    <section class="veiculos-destaque">
+        <div class="linha"></div>
+        <h2>Veículos em destaque</h2>
+        <div class="linha"></div>
+    </section><!--divisão
+
+
+    <!--sessão de vitrine de carros-->
+    <section class="vitrine container">
+        <div class="vitrine-single">
+            <div class="img-carro"></div>
+            <div class="info-carro">
+                <h2>Volkswagen Karmann-ghia</h2>
+                <p>1.6 8v, Gasolina, 2P, Manual11969</p>
+                <a href="">Mais detalhes</a>
+            </div><!--informações dos carros-->
+        </div><!--carro individual-->
+
+        <div class="vitrine-single">
+            <div class="img-carro"></div>
+            <div class="info-carro">
+                <h2>Volkswagen Karmann-ghia</h2>
+                <p>1.6 8v, Gasolina, 2P, Manual11969</p>
+                <a href="">Mais detalhes</a>
+            </div><!--informações dos carros-->
+        </div><!--carro individual-->
+
+        <div class="vitrine-single">
+            <div class="img-carro"></div>
+            <div class="info-carro">
+                <h2>Volkswagen Karmann-ghia</h2>
+                <p>1.6 8v, Gasolina, 2P, Manual11969</p>
+                <a href="">Mais detalhes</a>
+            </div><!--informações dos carros-->
+        </div><!--carro individual-->
+    </section><!--vitrine-->
+
+
+    <!--Sessão de depoimentos-->
+    <section class="servicos-descricao">
+        <div class="servicos">
+            <div class="servicos-lista">
+                <h2>Serviços</h2>
+                <ul>
+                    <li>Compra</li>
+                    <li>Venda</li>
+                    <li>Indicação de peças</li>
+                    <li>Consultorias de veículos</li>
+                </ul>
+            </div>
+            <a href="">Saiba mais</a>
+        </div><!--Serviços-->
+
+        <div class="descricao">
+            <h2>Depoimentos</h2>
+            <div class="depoimento-single">
+                <p>"O Rafael foi muito atencioso, me buscou no aeroporto e garantiu toda comodidade e conforto no almoço, no transfer,  na visita ao veículo e durante o test-drive."</p>
+            </div>
+
+            <div class="navegation">
+                <img src="imagens/arrow-left.png" alt="">
+                <img src="imagens/arrow-right.png" alt="">
+            </div>
+
+            <div class="nome-depoimento">João da Silva</div>
+        </div><!--Descrição-->
+    </section>
+
+
+        <!--divisão para veículos destaques-->
+        <section class="veiculos-destaque">
+            <div class="linha"></div>
+            <h2>Entre em contato</h2>
+            <div class="linha"></div>
+        </section><!--divisão
+
+
+        <!--Sessão de contato-->
+        <section class="contato container">
+            <form action="">
+                <div class="input-wraper"> 
+                    <input type="text" name="nome" placeholder="Nome*" required>
+                </div>
+
+                <div class="input-wraper"> 
+                    <input type="text" name="telefone" placeholder="Telefone*" required>
+                </div>
+
+                <div class="input-wraper"> 
+                    <input type="text" name="email" placeholder="E-mail*" required>
+                </div>
+
+                <div class="input-wraper"> 
+                    <textarea placeholder="digite aqui a sua mensagem*" name="mensagem" id="msg" cols="30" rows="10"></textarea>
+                </div>
+
+                <button>Enviar</button>
+            </form>
+        </section><!--Contato-->
+
+
+        <!--Rodapé e menu de navegação inferior-->
+        <footer>
+            <div class="container container-footer">
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a style="color: #eb2d2d;" href="">Home</a></li>
+                        <li><a href="">Venda</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <p>Todos os direitos reservados</p>
+            </div>
+        </footer><!--footer-->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/menu_responsivo.js"></script>
+</body>
+</html>

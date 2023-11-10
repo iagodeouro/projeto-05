@@ -1,0 +1,225 @@
+@media(max-width: 768px){
+    
+/*__________________
+
+    HEADER
+__________________*/
+
+    header{
+        height: 70px; padding: 30px 0;
+    }
+
+    .container-header{
+        display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 15px;
+    }
+
+    .container-header img{
+        width: 120px;
+    }
+
+    .nav-desktop{
+        display: none;
+    }
+
+    .nav-mobile{
+        cursor: pointer;
+        width: 32px; height: 32px;
+        display: block;
+        background-image: url(../imagens/icon_menu.png); background-repeat: no-repeat; background-size: 100%;
+    }
+
+    .nav-mobile ul{
+        display: none;
+        width: 100%;
+        background-color: white;
+        position: absolute; top: 60px; left: 0;
+    }
+
+    .nav-mobile ul li{
+        text-align: center;
+        font-size: 18px;
+        padding: 15px 0;
+        border-bottom: 2px solid black;
+    }
+
+    .nav-mobile ul li a{
+        font-style: italic;
+        text-decoration: none;
+        color: black;
+    }
+
+/*__________________
+ 
+    Sessão banner
+__________________*/
+
+    section.banner{
+        background-position: right bottom;
+        height: 400px;
+    }
+
+    .container-banner{
+        height: 100%; padding: 50px;
+        align-items: flex-start;
+    }
+
+    .text-banner{
+        gap: 20px;
+    }
+
+    .text-banner-single{
+        width: 200px; height: 40px; padding: 0;
+        color: white; font-size: 18px;
+        justify-content: center;
+    }
+
+    .text-banner-single:nth-of-type(2){
+        width: 150px;
+    }
+    
+    .text-banner-single:nth-of-type(3){
+        width: 120px;
+    }
+
+/*__________________
+ 
+    divisão
+__________________*/
+
+    .veiculos-destaque{
+        padding: 40px 2%;
+        display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+    }
+
+    .veiculos-destaque h2{
+        font-size: 18px;
+    }
+
+    div.linha{
+        width: 200px; height: 2px;
+    }
+
+ /*__________________
+ 
+    Vitrine
+__________________*/
+
+    section.vitrine{
+        flex-direction: column; gap: 30px;
+    }
+
+    div.img-carro{
+        width: 280px; background-size: 100% 100%; background-position: center bottom;
+    }
+
+    .vitrine-single{
+        align-items: center;
+    }
+
+    .info-carro{
+        align-items: center;
+    }
+    
+/*__________________
+ 
+    Serviços e descrição
+__________________*/
+
+    .servicos-descricao{
+        flex-direction: column; 
+    }
+
+    /*Estilo da divisão de serviços*/
+    div.servicos{
+        width: 100%; padding: 30px;
+        align-items: center; flex-direction: column; gap: 30px;
+    }
+
+    div.servicos a{
+        width: 100px; padding: 5px 0;
+        font-size: 13px; font-weight: normal; font-style: italic;
+
+    }
+
+    .servicos-lista{
+        gap: 5px;
+    }
+
+    .servicos-lista h2{
+        font-size: 28px; font-weight: normal; font-style: italic;
+    }
+
+    .servicos-lista ul li{
+        font-size: 13px;
+    }
+
+    /*Estilo da divisão de descrição*/
+    div.descricao{
+        width: 100%; padding: 30px; align-items: center;
+    }
+
+    div.descricao h2{
+        font-size: 22px;
+    }
+
+    .depoimento-single{
+        width: 60%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .nome-depoimento{
+        margin: 0;
+        font-size: 18px;
+    }
+
+ /*__________________
+ 
+    Serviços e descrição
+__________________*/
+
+    form{
+        width: 300px;
+        display: flex; flex-direction: column; gap: 15px; align-items: center;
+    }
+
+    .input-wraper input[type=text]{
+        width: 100%; height: 40px;
+    }
+    
+    .input-wraper textarea{
+        width: 100%;
+    }
+
+    button{
+        width: 120px; height: 40px;
+    }
+
+/*__________________
+ 
+    Rodapé e menu de navegação
+__________________*/
+
+    footer{
+        height: auto;
+        padding: 30px;
+    }
+
+    .container-footer{
+        height: auto;
+        flex-direction: column; align-items: center; justify-content: center; gap: 20px;
+    }
+
+    .container-footer p{
+        font-size: 15px
+    }
+  
+
+
+
+
+
+
+
+
+}

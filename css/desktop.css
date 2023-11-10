@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+:root {
+    --font-padrao: 'Oswald', sans-serif;
+  }
+
+
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+    font-family: var(--font-padrao) ;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: white;
+}
+
+/*__________________
+
+    HEADER
+__________________*/
+
+header{
+    width: 100%; height: 100px;
+    background-color: white;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.container{
+    width: 100%; max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-header{
+    display: flex; flex-direction: row; justify-content: space-between;
+    padding: 0 2%;
+}
+
+.nav-desktop ul{
+    height: 100%; width: 400px;
+    display: flex; align-items: center; justify-content: space-between;  
+}
+
+.nav-desktop ul li{
+    list-style-type: none;
+    font-size: 23px;
+}
+
+.nav-desktop ul li:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-desktop ul li a{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+.nav-mobile{
+    display: none;
+}
+
+/*__________________
+ 
+    Sessão banner
+__________________*/
+section.banner{
+    width: 100%; height: 600px;
+    background-color: black; background-image: url(../imagens/bg.jpg); background-position: right bottom; background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container-banner{
+    height: 100%;
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: center;
+}
+
+.text-banner{
+    height: auto; margin-left: 5%;
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 30px;
+}
+
+.text-banner-single{
+    cursor: pointer;
+    width: 300px; height: 60px; padding-left: 50px;
+    color: white; font-size: 23px; font-style: italic;
+    background-image: url(../imagens/box-text.png); background-size: 100% 100%;
+    display: flex; align-items: center; justify-content: flex-start;
+}
+
+.text-banner-single:nth-of-type(2){
+    width: 230px;
+}
+
+.text-banner-single:nth-of-type(3){
+    width: 180px;
+}
+
+.text-banner-single:nth-of-type(2){
+    width: 230px;
+}
+
+.text-banner-single:nth-of-type(4){
+    background-image: url(../imagens/box-white-text.png);
+    color: black;
+}
+
+/*__________________
+ 
+    divisão
+__________________*/
+
+.veiculos-destaque{
+    width: 100%;
+    padding: 60px 2%;
+    display: flex; align-items: center; justify-content: center; gap: 20px;
+}
+
+.veiculos-destaque h2{
+    font-size: 23px; font-style: italic;
+    text-align: center;
+}
+
+div.linha{
+    width: 400px; height: 2px; background-color: black;
+}
+
+/*__________________
+ 
+    Vitrine
+__________________*/
+
+section.vitrine{
+    padding-bottom: 100px;
+    display: flex; flex-direction: row; align-items: center; justify-content: space-around;
+}
+
+.vitrine-single{
+    display: flex; flex-direction: column; gap: 10px;
+}
+
+.info-carro{
+    display: flex; flex-direction: column; gap: 7px;
+}
+
+.vitrine-single .info-carro h2{
+    font-size: 20px; font-style: italic;
+    color: black;
+}
+
+.vitrine-single .info-carro p{
+    font-size: 15px; font-weight: normal;  font-style: italic;
+    color: #353535;
+}
+
+.vitrine-single .info-carro a{
+    width: 150px; padding: 10px 0;
+    text-align: center; text-decoration: none;
+    font-size: 15px; font-weight: bold; font-style: italic;
+    background-color: #eb2d2d; color: white;
+    border-bottom: 5px solid #b21e1e;
+}
+
+div.img-carro{
+    width: 300px; height: 280px;
+    background-image: url(../imagens/carro1.jpg); background-repeat: no-repeat; background-size: 100% 100%;
+}
+
+/*__________________
+ 
+    Serviços e descrição
+__________________*/
+
+.servicos-descricao{
+    width: 100%; height: auto;
+    display: flex; flex-direction: row;
+}
+
+/*Estilo da divisão de serviços*/
+div.servicos{
+    width: 50%;  padding: 50px;
+    background-color: #242424;
+    display: flex; flex-direction: row; justify-content: space-around; align-items: center;
+}
+
+div.servicos a{
+    width: 120px; padding: 5px 0;
+    text-align: center; text-decoration: none;
+    font-size: 15px; font-weight: normal; font-style: italic;
+    background-color: #eb2d2d; color: white;
+    border-bottom: 5px solid #b21e1e;
+}
+
+.servicos-lista{
+    color: white;
+    display: flex; flex-direction: column; gap: 10px;
+}
+
+.servicos-lista h2{
+    font-size: 24px; font-weight: normal; font-style: italic;
+}
+
+.servicos-lista ul{
+    list-style-position: inside;
+}
+
+.servicos-lista ul li{
+    font-size: 18px;
+}
+
+/*Estilo da divisão de descrição*/
+div.descricao{
+    width: 50%; padding: 50px;
+    background-color: #eb2d2d; color: white;
+    display: flex; flex-direction: column; justify-content: center; gap: 25px;
+}
+
+div.descricao h2{
+    font-size: 32px;
+}
+
+.depoimento-single{
+    width: 90%;
+    font-size: 18px; font-weight: lighter;
+}
+
+.navegation{
+    display: flex; gap: 32px;
+}
+
+.navegation img{
+    cursor: pointer;
+}
+
+.nome-depoimento{
+    margin-left: 300px;
+    font-size: 24px;
+    color: #242424;
+}
+
+/*__________________
+ 
+    Contato
+__________________*/
+
+section.contato{
+    padding-bottom: 50px;
+    display: flex; justify-content: center;
+}
+
+form{
+    width: 400px;
+    display: flex; flex-direction: column; gap: 15px; align-items: center;
+}
+
+.input-wraper{
+    width: 100%;
+}
+
+.input-wraper input[type=text]{
+    width: 100%; height: 40px; line-height: 40px; margin: 5px;
+    padding-left: 15px;
+    border: 2px solid #ccc;
+}
+
+.input-wraper textarea{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+
+.input-wraper input[type=text]::placeholder{
+    font-size: 13px; font-weight: normal;
+}
+
+.input-wraper textarea::placeholder{
+    font-size: 13px; font-weight: normal;
+}
+
+button{
+    cursor: pointer;
+    width: 200px; height: 40px;
+    text-align: center; margin-top: 20px;
+    font-size: 15px; font-weight: normal; font-style: italic;
+    background-color: #eb2d2d; color: white;
+    border: none; border-bottom: 5px solid #b21e1e;
+}
+
+
+/*__________________
+ 
+    Rodapé e menu de navegação
+__________________*/
+footer{
+    width: 100%; height: 100px;
+    background-color: #252525;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.container-footer{
+    display: flex; flex-direction: row; justify-content: space-between;
+    color: white;
+}
+
+.container-footer p{
+    font-size: 18px;
+}
+
+.container-footer .nav-desktop ul li a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.container-footer .nav-desktop ul li:hover{
+    border-bottom: 1px solid white;
+}
