@@ -116,7 +116,8 @@ section.banner{
 __________________*/
 
 .veiculos-destaque{
-    width: 100%;
+    margin: 0 auto;
+    width: 100%; max-width: 1200px;
     padding: 60px 2%;
     display: flex; align-items: center; justify-content: center; gap: 20px;
 }
@@ -127,7 +128,7 @@ __________________*/
 }
 
 div.linha{
-    width: 400px; height: 2px; background-color: black;
+    width: 50%; height: 2px; background-color: black;
 }
 
 /*__________________
@@ -291,6 +292,96 @@ button{
     border: none; border-bottom: 5px solid #b21e1e;
 }
 
+/*__________________
+ 
+    sessão de vendas
+__________________*/
+
+section.venda{
+    min-height: 75%; width: 100%;
+    display: flex; justify-content: center;
+}
+
+.container-venda{
+    display: flex; flex-direction: row;
+}
+
+.sidebar{
+    width: 30%; height: auto;
+    display: flex; flex-direction: column; gap: 20px;
+}
+
+.search1{
+    width: 300px;
+    display: flex; flex-direction: column; gap: 10px;
+}
+
+.search1 h2{
+    font-size: 24px;
+}
+
+.barra-preco{
+    position: relative;
+    width: 100%; height: 20px;
+    background-color: white;
+    border: 1px solid #ccc; border-radius: 20px;
+    display: flex; align-items: center;
+}
+
+.barra-preco-fill{
+    position: absolute; top: 0; left: 0;
+    width: 30%; height: 100%;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.pointer-barr{
+    cursor: pointer;
+    position: absolute; left: calc(30% - 13px);
+    width: 25px; height: 25px;
+    background-color: #ccc;
+    border: 1px solid #989494; border-radius: 50%;
+}
+
+.valor-pesquisa{
+    width: 100%;
+    display: flex; justify-content: space-between;
+}
+
+.valor-pesquisa p{
+    font-size: 14px;
+    color: black;
+}
+
+.search2{
+    margin-top: 50px;
+    display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; gap: 20px;
+}
+
+.search2 h2{
+    font-size: 24px;
+}
+
+form{
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 10px;
+}
+
+form input[type=checkbox]{
+    cursor: pointer;
+    width: 20px; height: 20px;
+    border-radius: 5px; border: 1px solid #ccc;
+}
+
+.form-venda-wraper{
+    cursor: pointer;
+    display: flex; align-items: center; gap: 10px;
+}
+
+.form-venda-wraper label{
+    cursor: pointer;
+    font-size: 15px;
+}
+
 
 /*__________________
  
@@ -320,3 +411,4 @@ footer{
 .container-footer .nav-desktop ul li:hover{
     border-bottom: 1px solid white;
 }
+

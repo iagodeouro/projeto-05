@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda</title>
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    
+        <!--Sessão do header com logo e menu de navegação superior-->
+        <header style="border-bottom: 3px solid #eb2d2d;">
+            <div class="container container-header">
+    
+                <img src="imagens/logo.jpg" alt="">
+    
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a style="color: #eb2d2d;" href="">Venda</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+    
+                <nav class="nav-mobile">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a style="color: #eb2d2d;" href="">Venda</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+    
+            </div><!--conteúdo-->
+        </header><!--Cabeçalho-->
+
+
+        <!--divisão para veículos destaques-->
+        <section id="contato" class="veiculos-destaque">
+            <div class="linha"></div>
+            <h2>Vendas</h2>
+            <div class="linha"></div>
+        </section><!--divisão-->
+
+
+        <!--Sessão de vendas-->
+        <section class="venda">
+<!--__________________________________________-->
+            <div class="container container-venda">
+                <div class="sidebar">
+                    <div class="search1">
+                        <h2>Filtre por preço</h2>
+                        <div class="barra-preco">
+                            <div class="barra-preco-fill"></div><!--barra de filtro-->
+                            <div class="pointer-barr"></div><!--ponteiro da barra-->
+                        </div><!--barra de preço-->
+                        <div class="valor-pesquisa">
+                            <p>R$0,00</p>
+                            <p>R$70.000,00</p>
+                        </div><!--valor da pesquisa-->
+
+                    </div><!--primeira parte da sessão do sidebarr-->
+
+                    <div class="search2">
+                        <h2>Filtre por ano</h2>
+                        <!--formuário-->
+                        <form action="">
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="ano0">
+                                <label for="ano0">Todas as décadas</label>
+                            </div><!--input por linha-->
+
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="ano1">
+                                <label for="ano1">1970 - 1980</label>
+                            </div><!--input por linha-->
+
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="ano2">
+                                <label for="ano2">1980 - 1990</label>
+                            </div><!--input por linha-->
+
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="ano3">
+                                <label for="ano3">1990 - 2000</label>
+                            </div><!--input por linha-->
+
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="ano3">
+                                <label for="ano4">2000 - 2010</label>
+                            </div><!--input por linha-->
+
+                            <div class="form-venda-wraper">
+                                <input type="checkbox" id="ano3">
+                                <label for="ano5">2010 - 2020</label>
+                            </div><!--input por linha-->
+                        </form><!--formulário-->
+                    </div><!--segunda parte da sessão do sidebarr-->
+
+                </div><!--sidebar-->
+
+            </div><!--conteúdo da venda-->
+<!--__________________________________________-->
+        </section><!--venda-->
+
+
+                <!--Rodapé e menu de navegação inferior-->
+        <footer>
+            <div class="container container-footer">
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a style="color: #eb2d2d;" href="">Venda</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                        </ul>
+                </nav>
+    
+                <p>Todos os direitos reservados</p>
+            </div>
+        </footer><!--footer-->
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/menu_responsivo.js"></script>
+    <script src="js/menuScroll.js"></script>
+</body>
+</html>
