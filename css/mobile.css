@@ -197,6 +197,61 @@ __________________*/
 
 /*__________________
  
+    sessão de vendas
+__________________*/
+
+
+    section.venda{
+        min-height: 75%; width: 100%;
+        display: flex; justify-content: center;
+    }
+
+    .container-venda{
+        padding-bottom: 50px;
+        flex-direction: column; align-items: center; gap: 50px;
+    }
+
+    .search1{
+       gap: 15px;
+    }
+    
+    .search1 h2{
+        font-size: 21px;
+    }
+
+    .sidebar{
+        margin-top: 50px;
+        display: flex; flex-direction: column; align-items: center;
+    }
+
+    .search2{
+        margin-top: 50px;
+        display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; gap: 20px;
+    }
+    
+    .search2 h2{
+        font-size: 21px;
+    }
+    
+    form{
+        display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 10px;
+    }
+
+    .form-venda-wraper label{
+        font-size: 15px;
+    }
+
+    .vitrine-venda{
+        width: 100%; height: auto; gap: 50px;
+        display: flex; flex-direction: column; flex-wrap: nowrap; align-items: center;
+    }
+
+    .vitrine-venda .img-carro{
+        width: 300px;  border: 0 solid white;
+    }
+
+/*__________________
+ 
     Rodapé e menu de navegação
 __________________*/
 

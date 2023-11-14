@@ -251,20 +251,21 @@ __________________*/
 
 section.contato{
     padding-bottom: 50px;
-    display: flex; justify-content: center;
+    display: flex; justify-content: center; align-items: center;
 }
 
 form{
     width: 400px;
-    display: flex; flex-direction: column; gap: 15px; align-items: center;
+    display: flex; flex-direction: column; align-items: center;
 }
 
 .input-wraper{
-    width: 100%;
+    width: 100%; height: auto; margin-top: 10px;
+    display: flex; align-items: center; justify-content: center;
 }
 
 .input-wraper input[type=text]{
-    width: 100%; height: 40px; line-height: 40px; margin: 5px;
+    width: 100%; height: 40px; line-height: 40px;
     padding-left: 15px;
     border: 2px solid #ccc;
 }
@@ -285,7 +286,7 @@ form{
 
 button{
     cursor: pointer;
-    width: 200px; height: 40px;
+    width: 200px; height: 40px; margin: 0 auto;
     text-align: center; margin-top: 20px;
     font-size: 15px; font-weight: normal; font-style: italic;
     background-color: #eb2d2d; color: white;
@@ -331,7 +332,7 @@ section.venda{
 .barra-preco-fill{
     position: absolute; top: 0; left: 0;
     width: 30%; height: 100%;
-    background-color: #ccc;
+    background: linear-gradient(to bottom , rgb(255, 255, 255), rgb(200, 200, 200));
     border-radius: 20px;
 }
 
@@ -339,8 +340,8 @@ section.venda{
     cursor: pointer;
     position: absolute; left: calc(30% - 13px);
     width: 25px; height: 25px;
-    background-color: #ccc;
-    border: 1px solid #989494; border-radius: 50%;
+    background: linear-gradient(to bottom , rgb(255, 255, 255), rgb(180, 180, 180));
+    border: 2px solid #989494; border-radius: 10px;
 }
 
 .valor-pesquisa{
@@ -380,6 +381,25 @@ form input[type=checkbox]{
 .form-venda-wraper label{
     cursor: pointer;
     font-size: 15px;
+}
+
+.vitrine-venda{
+    width: 70%; height: auto;
+    display: flex; flex-wrap: wrap; gap: 30px;
+}
+
+
+.vitrine-venda .img-carro{
+    width: 250px;  border: 10px solid white;
+}
+
+/*__________________
+ 
+    Contato
+__________________*/
+
+.venda-single .veiculos-destaque h2{
+    font-size: 24px;
 }
 
 

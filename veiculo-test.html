@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 05</title>
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+
+    <!--Sessão do header com logo e menu de navegação superior-->
+    <header id="header" style="border-bottom: 3px solid #eb2d2d;">
+        <div class="container container-header">
+
+            <img src="imagens/logo.jpg" alt="">
+
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="venda.html" style="color: #eb2d2d;">Venda</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-mobile">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="venda.html">Venda</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div><!--conteúdo-->
+    </header><!--Cabeçalho-->
+
+
+    <!--venda individual-->
+    <section class="venda-single">
+
+        <!--divisão para veículos destaques-->
+        <section class="veiculos-destaque">
+            <div class="linha"></div>
+            <h2>Opala</h2>
+            <div class="linha"></div>
+        </section><!--divisão-->
+
+        <div class="container-venda-veiculo">
+            <div class="info-veiculo">
+                <div class="foto-destaque"></div>
+                <div class="nav-galeria">
+                    <div class="mine-img"></div>
+                    <div class="mine-img"></div>
+                    <div class="mine-img"></div>
+                    <div class="mine-img"></div>
+                    <div class="mine-img"></div>
+                    <div class="mine-img"></div>
+                </div>
+            </div>
+
+            <div class="descricao-veiculo">
+                <h2>R$20.000,00</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button>Entre em contato</button>
+            </div>
+        </div><!--conteúdo das vendas- imagens dos carros e informações-->
+    </section><!--venda single-->
+
+
+
+        <!--divisão para veículos destaques-->
+        <section id="contato" class="veiculos-destaque">
+            <div class="linha"></div>
+            <h2>Contato</h2>
+            <div class="linha"></div>
+        </section><!--divisão-->
+
+
+        <!--Sessão de contato-->
+    <section class="contato container">
+        <form action="">
+            <div class="input-wraper"> 
+                <input type="text" name="nome" placeholder="Nome*" required>
+            </div>
+
+            <div class="input-wraper"> 
+                <input type="text" name="telefone" placeholder="Telefone*" required>
+            </div>
+
+            <div class="input-wraper"> 
+                <input type="text" name="email" placeholder="E-mail*" required>
+            </div>
+
+            <div class="input-wraper"> 
+                <textarea placeholder="digite aqui a sua mensagem*" name="mensagem" id="msg" cols="30" rows="10"></textarea>
+            </div>
+
+            <button>Enviar</button>
+        </form>
+    </section><!--Contato-->
+
+
+
+    <!--divisão para veículos destaques-->
+    <section class="veiculos-destaque">
+        <div class="linha"></div>
+        <h2>Veículos em destaque</h2>
+        <div class="linha"></div>
+    </section><!--divisão
+
+
+    <!--sessão de vitrine de carros-->
+    <section class="vitrine container">
+        <div class="vitrine-single">
+            <div class="img-carro"></div>
+            <div class="info-carro">
+                <h2>Volkswagen Karmann-ghia</h2>
+                <p>1.6 8v, Gasolina, 2P, Manual11969</p>
+                <a href="">Mais detalhes</a>
+            </div><!--informações dos carros-->
+        </div><!--carro individual-->
+
+        <div class="vitrine-single">
+            <div class="img-carro"></div>
+            <div class="info-carro">
+                <h2>Volkswagen Karmann-ghia</h2>
+                <p>1.6 8v, Gasolina, 2P, Manual11969</p>
+                <a href="">Mais detalhes</a>
+            </div><!--informações dos carros-->
+        </div><!--carro individual-->
+
+        <div class="vitrine-single">
+            <div class="img-carro"></div>
+            <div class="info-carro">
+                <h2>Volkswagen Karmann-ghia</h2>
+                <p>1.6 8v, Gasolina, 2P, Manual11969</p>
+                <a href="">Mais detalhes</a>
+            </div><!--informações dos carros-->
+        </div><!--carro individual-->
+    </section><!--vitrine-->
+
+
+        <!--Rodapé e menu de navegação inferior-->
+    <footer>
+        <div class="container container-footer">
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a style="color: #eb2d2d;" href="#header">Home</a></li>
+                    <li><a href="venda.html">Venda</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+
+            <p>Todos os direitos reservados</p>
+        </div>
+    </footer><!--footer-->
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/menu_responsivo.js"></script>
+<script src="js/menuScroll.js"></script>
+</body>
+</html>
