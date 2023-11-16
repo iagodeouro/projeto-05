@@ -1,0 +1,25 @@
+$(function(){
+
+    alert('funcionando');
+
+
+
+
+
+    
+   
+
+    
+
+
+    
+
+    
+   
+
+
+
+
+
+
+});
