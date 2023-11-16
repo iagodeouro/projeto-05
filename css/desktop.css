@@ -331,14 +331,14 @@ section.venda{
 
 .barra-preco-fill{
     position: absolute; top: 0; left: 0;
-    width: 30%; height: 100%;
+    width: 0; height: 100%;
     background: linear-gradient(to bottom , rgb(255, 255, 255), rgb(200, 200, 200));
     border-radius: 20px;
 }
 
-.pointer-barr{
+.pointer-barra{
     cursor: pointer;
-    position: absolute; left: calc(30% - 13px);
+    position: absolute; left: 0;
     width: 25px; height: 25px;
     background: linear-gradient(to bottom , rgb(255, 255, 255), rgb(180, 180, 180));
     border: 2px solid #989494; border-radius: 10px;
